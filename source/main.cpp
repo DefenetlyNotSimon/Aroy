@@ -2,7 +2,14 @@
 **   Aroy - Project
 **
 **   @file main.cpp
-**   Created @date{28/10/2023 2023} by @author{Simon}
+**
+**   Created
+**   @date 28/10/2023
+**
+**    by
+**    @author Simon
+**
+**
 **   Copyright 2023 | Simon
 **
 **   Licensed under the GNU Lesser General Public License Version 3;
