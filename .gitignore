@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Doxygen Stuff
+Doxyfile
+runDoxygen.bat
