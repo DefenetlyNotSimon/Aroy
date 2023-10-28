@@ -12,13 +12,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-set(TS_FILES Aroy_en_GB.ts)
+set(TS_FILES translations/Aroy_en_GB.ts)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.hpp
-        mainwindow.ui
+        source/main.cpp
+        ui/mainwindow.cpp
+        headers/mainwindow.hpp
+        ui/mainwindow.ui
         ${TS_FILES}
 )
 
